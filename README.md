@@ -45,28 +45,34 @@ Example command line usage:
 ---
 
 ### What are some popular modules?
-Frameworks - similar to Flask, Django
-  - Express.js
-Template Engines - similar to Jinja
-  - Pug, EJS, Handlebars
-Utilities
-  - Path, OS, API Modules, Compilers, nodemon
-Database ORM (Object Relational Mappers)
-  - Mongoose, MongoJS - used to interact with MongoDB
+- Frameworks - similar to Flask, Django
+	- Express.js
+- Template Engines - similar to Jinja
+	- Pug, EJS, Handlebars
+- Utilities
+	- Path, OS, API Modules, Compilers, nodemon
+- Database ORM (Object Relational Mappers)
+	- Mongoose, MongoJS - used to interact with MongoDB
 
 ---
 
 ### How do I get started with Node?
-Windows & Mac	
-  - [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-Linux
-  - Google it
-  `$ sudo apt-get install python-software-properties
-  $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-  $ sudo apt-get install nodejs`
-Check that you correctly installed
-  `$ node -v
-  $ npm -v`
+- Windows & Mac	
+	- [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+- Linux
+
+	- ```$ sudo apt-get install python-software-properties```
+
+	- ```$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
+
+	- ```$ sudo apt-get install nodejs```
+
+- Check that you correctly installed
+
+	- ```$ node -v```
+	
+	- ```$ npm -v```
+
 NOTE: while node uses JS, some functions and objects that are built into browser-based JS like document and window cannot be used
 
 ---
