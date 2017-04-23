@@ -81,9 +81,11 @@ NOTE: while node uses JS, some functions and objects that are built into browser
 ### Simple Example Server w/ Node & Express
 
 - ```$ npm init```
+
 	- creates package.json file, necessary for all node.js applications
+	
 - ```$ node <entry file name>```
-- http://<host>:<port>
+- http://\<host\>:\<port\>
 - 2 ways to install express.js:
 	1. ```markdown $ npm install express --save```
 	2. add to package.json then ```markdown $ npm install```
