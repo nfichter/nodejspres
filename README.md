@@ -36,15 +36,16 @@ A presentation by Noah Fichter and Chloe Delfau.
   
 Example command line usage:
 
-  ```markdown $ npm install express```
+  ```$ npm install express```
   
-  ```markdown $ npm -g (to install globally instead of only the application you’re working in)```
+  ```$ npm -g (to install globally instead of only the application you’re working in)```
   
-  ```markdown $ npm --save (to save it in the package.json file)```
+  ```$ npm --save (to save it in the package.json file)```
  
 ---
 
 ### What are some popular modules?
+
 - Frameworks - similar to Flask, Django
 	- Express.js
 - Template Engines - similar to Jinja
@@ -61,17 +62,17 @@ Example command line usage:
 	- [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 - Linux
 
-	- ```markdown $ sudo apt-get install python-software-properties```
+	- ```$ sudo apt-get install python-software-properties```
 
-	- ```markdown $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
+	- ```$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
 
-	- ```markdown $ sudo apt-get install nodejs```
+	- ```$ sudo apt-get install nodejs```
 
 - Check that you correctly installed
 
-	- ```markdown $ node -v```
+	- ```$ node -v```
 	
-	- ```markdown $ npm -v```
+	- ```$ npm -v```
 
 NOTE: while node uses JS, some functions and objects that are built into browser-based JS like document and window cannot be used
 
@@ -79,7 +80,7 @@ NOTE: while node uses JS, some functions and objects that are built into browser
 
 ### Simple Example Server w/ Node & Express
 
-- ```markdown $ npm init```
+- ```$ npm init```
 	- creates package.json file, necessary for all node.js applications
 - ```$ node <entry file name>```
 - http://<host>:<port>
