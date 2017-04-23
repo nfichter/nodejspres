@@ -87,13 +87,16 @@ NOTE: while node uses JS, some functions and objects that are built into browser
 - ```$ node <entry file name>```
 - http://\<host\>:\<port\>
 - 2 ways to install express.js:
-	1. ```$ npm install express --save```
-	2. add to package.json then ```$ npm install```
+	- ```$ npm install express --save```
+	- add to package.json then ```$ npm install```
 
 ---
 
 ### Example Code
-```python
+
+- app.js
+
+```javascript
 // Modules required
 var http = require("http");
 var fs = require("fs");
@@ -128,7 +131,7 @@ fs.readFile("./index.html", function(err,html) {
 });
 ```
 
-=====================================
+- index.html
 
 ```
 <!DOCTYPE html>
@@ -141,3 +144,7 @@ fs.readFile("./index.html", function(err,html) {
 </body>
 </html>
 ```
+
+---
+
+When you run your program (```$ npm app.js```), open your website (by default, localhost:\<port\>) and your HTML page should be working!
