@@ -29,9 +29,9 @@ A presentation by Noah Fichter and Chloe Delfau.
   - Comes with Node.js, so don’t worry about installing it yourself
   
 Example command line usage:
-  `$ npm install express  
-  (-g to install globally instead of only the application you’re working in)
-  (--save to save it in the package.json file)`
+  ```$ npm install express```
+  ```$ npm -g (to install globally instead of only the application you’re working in)```
+  ```$ npm --save (to save it in the package.json file)```
 
 ### What are some popular modules?
 Frameworks - similar to Flask, Django
