@@ -87,13 +87,14 @@ NOTE: while node uses JS, some functions and objects that are built into browser
 - ```$ node <entry file name>```
 - http://\<host\>:\<port\>
 - 2 ways to install express.js:
-	1. ```markdown $ npm install express --save```
-	2. add to package.json then ```markdown $ npm install```
+	1. ```$ npm install express --save```
+	2. add to package.json then ```$ npm install```
 
 ---
 
 ### Example Code
-`// Modules required
+```python
+// Modules required
 var http = require("http");
 var fs = require("fs");
 
@@ -125,9 +126,11 @@ fs.readFile("./index.html", function(err,html) {
 		console.log("Server running on port "+port);
 	});
 });
+```
 
 =====================================
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -136,4 +139,5 @@ fs.readFile("./index.html", function(err,html) {
 <body>
 	<h1>Hi there</h1>
 </body>
-</html>`
+</html>
+```
