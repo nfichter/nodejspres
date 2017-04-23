@@ -29,6 +29,7 @@ A presentation by Noah Fichter and Chloe Delfau.
   - Comes with Node.js, so don’t worry about installing it yourself
   
 Example command line usage:
+
   ```$ npm install express```
   
   ```$ npm -g (to install globally instead of only the application you’re working in)```
