@@ -13,15 +13,15 @@ A presentation by Noah Fichter and Chloe Delfau.
  	- Very fast and efficient
   	- Should not be used for applications heavy on CPU usage
 - **Event Driven**
-  	- After initialization, it sets up event listeners and waits for one to occur
-  	- When one occurs, it triggers the function set to it (callback function)
-  	- Supports concurrent events
-  	- We already use it this way when using JS in the browser, so we know how to work with events
+	- After initialization, it sets up event listeners and waits for one to occur
+	- When one occurs, it triggers the function set to it (callback function)
+	- Supports concurrent events
+	- We already use it this way when using JS in the browser, so we know how to work with events
 - **Uses JS on both frontend and backend**
-  	- Breaks down the barrier between frontend and backend
-  	- Can replace Python & Flask entirely
-  	- Allows easy passing of data using JSON
-  		- We don’t have to convert between different data types
+	- Breaks down the barrier between frontend and backend
+	- Can replace Python & Flask entirely
+	- Allows easy passing of data using JSON
+		- We don’t have to convert between different data types
 
 ### What is NPM?
 **NPM** is the **Node Package Manager**
