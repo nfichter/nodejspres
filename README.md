@@ -11,7 +11,7 @@ A presentation by Noah Fichter and Chloe Delfau.
 
 ### What are the benefits of using Node?
 ```markdown
-**Asynchronous**
+Asynchronous
   - Don’t have to wait for one process to end before beginning another (non-blocking model)
   - Very fast and efficient
   - Should not be used for applications heavy on CPU usage
