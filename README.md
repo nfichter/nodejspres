@@ -2,10 +2,14 @@
 
 A presentation by Noah Fichter and Chloe Delfau.
 
+---
+
 ### What is Node.js?
 - Node.js is a **platform** built on Chrome's JavaScript runtime for easily building fast and scalable network applications. 
 - It uses an **event-driven, non-blocking I/O model** that makes it **lightweight** and **efficient**, perfect for data-intensive **real-time applications** that run across distributed devices.
 - In essence, it is a **backend command line tool** that allows you to use JavaScript on a server
+
+---
 
 ### What are the benefits of using Node?
 - **Asynchronous**
@@ -23,6 +27,8 @@ A presentation by Noah Fichter and Chloe Delfau.
 	- Allows easy passing of data using JSON
 		- We don’t have to convert between different data types
 
+---
+
 ### What is NPM?
 **NPM** is the **Node Package Manager**
   - Used to install packages and modules, similar to pip for Python
@@ -35,7 +41,8 @@ Example command line usage:
   ```$ npm -g (to install globally instead of only the application you’re working in)```
   
   ```$ npm --save (to save it in the package.json file)```
-  
+ 
+---
 
 ### What are some popular modules?
 Frameworks - similar to Flask, Django
@@ -46,6 +53,8 @@ Utilities
   - Path, OS, API Modules, Compilers, nodemon
 Database ORM (Object Relational Mappers)
   - Mongoose, MongoJS - used to interact with MongoDB
+
+---
 
 ### How do I get started with Node?
 Windows & Mac	
@@ -60,6 +69,8 @@ Check that you correctly installed
   $ npm -v`
 NOTE: while node uses JS, some functions and objects that are built into browser-based JS like document and window cannot be used
 
+---
+
 ### Simple Example Server w/ Node & Express
 `$ npm init`
   - creates package.json file, necessary for all node.js applications
@@ -68,6 +79,8 @@ http://<host>:<port>`
 2 ways to install express.js:
   1. `$ npm install express --save`
   2. add to package.json then `$ npm install`
+
+---
 
 ### Example Code
 `// Modules required
