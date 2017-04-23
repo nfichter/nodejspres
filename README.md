@@ -36,11 +36,11 @@ A presentation by Noah Fichter and Chloe Delfau.
   
 Example command line usage:
 
-  ```$ npm install express```
+  ```markdown $ npm install express```
   
-  ```$ npm -g (to install globally instead of only the application you’re working in)```
+  ```markdown $ npm -g (to install globally instead of only the application you’re working in)```
   
-  ```$ npm --save (to save it in the package.json file)```
+  ```markdown $ npm --save (to save it in the package.json file)```
  
 ---
 
@@ -61,17 +61,17 @@ Example command line usage:
 	- [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 - Linux
 
-	- ```$ sudo apt-get install python-software-properties```
+	- ```markdown $ sudo apt-get install python-software-properties```
 
-	- ```$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
+	- ```markdown $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -```
 
-	- ```$ sudo apt-get install nodejs```
+	- ```markdown $ sudo apt-get install nodejs```
 
 - Check that you correctly installed
 
-	- ```$ node -v```
+	- ```markdown $ node -v```
 	
-	- ```$ npm -v```
+	- ```markdown $ npm -v```
 
 NOTE: while node uses JS, some functions and objects that are built into browser-based JS like document and window cannot be used
 
